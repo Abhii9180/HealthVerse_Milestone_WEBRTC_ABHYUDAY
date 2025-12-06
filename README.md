@@ -120,7 +120,7 @@ python -m server.app
 ```
 
 
-
+```
 📂 Project Structure (High Level)
 MediVerse/
 │── client/                # React frontend
@@ -131,7 +131,7 @@ MediVerse/
 │── assets/                # README images
 │── README.md
 │── package.json
-
+```
 
 
 👨‍💻 Contributors
