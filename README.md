@@ -1,68 +1,65 @@
 🌐 MediVerse – Intelligent AI-Powered Telehealth Platform
 
-
-
-
-MediVerse is a next-generation telemedicine platform built by Abhyuday Pratap Singh and Ankur Gupta.
-The platform integrates AI predictions, video calls, document intelligence, and a smart medical store, making digital healthcare more seamless and reliable.
+MediVerse is a next-generation telemedicine platform developed by Abhyuday Pratap Singh and Ankur Gupta.
+The platform seamlessly blends AI predictions, real-time video consultations, smart document analysis, and a built-in medical store, making digital healthcare truly modern and reliable.
 
 🏠 Home Page
 
-MediVerse offers a modern, intuitive interface with:
+MediVerse provides a clean, intuitive interface featuring:
 
 🎥 WebRTC-based video consultation
 
-🧠 AI-driven health predictions
+🧠 AI-powered health predictions
 
 🎙 Voice-enabled interactions (ElevenLabs)
 
-📄 Automated prescription/report analysis
+📄 Automated prescription & report analysis
 
-🔐 Role-based access for patients & doctors
+🔐 Role-based dashboard for patients & doctors
 
-🛒 Built-in medical product store
+🛒 Integrated medical shopping module
 
 🚀 Core Features
 👨‍⚕️ Real-Time Video Consultations
 
-Secure WebRTC video calls allow patients and doctors to communicate without delay.
+Secure, low-latency WebRTC calls ensure smooth communication between patients and doctors.
 
 🧠 AI Health Insights
 
-Predict potential health risks instantly using integrated machine learning models.
+Get instant predictions using machine-learning models for early risk detection.
 
 📄 Smart Document Processing
 
-Upload prescriptions, lab reports, or medical PDFs and get quick insights directly inside the platform.
+Upload prescriptions, reports, or PDFs and receive intelligent insights within seconds.
 
 🎙 Voice Interaction
 
-Hands-free conversations with an integrated ElevenLabs voice assistant.
+Hands-free conversations via an integrated ElevenLabs AI voice assistant.
 
 🔐 Secure Role-Based System
 
-Each user role receives a personalized dashboard and access privileges.
+Personalized dashboards and permissions for each user type.
 
-🛒 Shop Now
+🛒 Medical Store
 
-Buy medical products and healthcare essentials directly through the platform.
+Purchase healthcare essentials directly through the platform.
 
 📸 Demo
 
-A complete video demonstration will be uploaded soon. Stay tuned!
+A full demonstration video will be uploaded soon. Stay tuned!
 
 📚 User Guide
 
-A detailed onboarding guide is available here:
+A complete onboarding document is available here:
 👉 User Manual (PDF)
 
 🔗 Live Application
 
-Experience MediVerse here:
-👉 https://medixpert.netlify.app/
+Experience MediVerse in action:
+➡️ https://medixpert.netlify.app/
 
 🛠️ Tech Stack
-Frontend
+🎨 Frontend
 
 React.js
 
@@ -70,7 +67,7 @@ Vite
 
 HTML/CSS
 
-Backend
+⚙️ Backend
 
 Node.js
 
@@ -78,65 +75,61 @@ Express.js
 
 MongoDB
 
-Real-Time Communication
+🔴 Real-Time Communication
 
 WebRTC
 
 Socket.io
 
-AI Systems
+🤖 AI Services
 
-Python-based prediction services
+Python-based prediction models
 
 ElevenLabs Voice API
 
-DevOps & Hosting
+☁️ DevOps & Hosting
 
 AWS
 
 Netlify
 
-Cloud-based storage for secure uploads
+Secure cloud storage
 
-Security
+🔐 Security
 
 JWT Authentication
 
 HTTPS
 
-Role-based access control (RBAC)
+RBAC (Role-Based Access Control)
 
 📦 Installation & Setup
-# Clone the repository
+Clone the repository
 git clone https://github.com/YOUR_GITHUB_USERNAME/MediVerse.git
 cd MediVerse
 
-# -------------------------------
-# Frontend Setup
-# -------------------------------
+▶️ Frontend Setup
 cd client
 npm install
 npm run dev
 
-# -------------------------------
-# Backend Setup
-# -------------------------------
+▶️ Backend Setup
 cd ../server
 npm install
 npm run dev
 
-# -------------------------------
-# Python AI Service
-# -------------------------------
+▶️ Python AI Service
+cd ../flask_ai
 python -m server.app
 
 📂 Project Structure (High-Level)
 MediVerse/
-│── client/          # React frontend
-│── server/          # Node.js backend
-│── flask_ai/        # Python-based AI prediction services
-│── RazorPay/        # Payment integration module
-│── React-webRTC-main/ # WebRTC module for video calling
+│── client/               # React frontend
+│── server/               # Node.js backend
+│── flask_ai/             # Python AI models & services
+│── RazorPay/             # Payment integration
+│── React-webRTC-main/    # WebRTC video module
+│── assets/               # Images used in README
 │── README.md
 │── package.json
 
