@@ -1,137 +1,138 @@
-🌐 MediVerse – Intelligent AI-Powered Telehealth Platform
+# 🌐 MediVerse – The Future of Digital Healthcare
 
-MediVerse is a next-generation telemedicine platform developed by Abhyuday Pratap Singh and Ankur Gupta.
-The platform seamlessly blends AI predictions, real-time video consultations, smart document analysis, and a built-in medical store, making digital healthcare truly modern and reliable.
+MediVerse is an AI-powered, role-based telemedicine platform built by **Ankur Gupta** and  
+**Abhyuday Pratap Singh** to revolutionize digital healthcare with smart automation and  
+real-time remote consultations.
 
-🏠 Home Page
+---
 
-MediVerse provides a clean, intuitive interface featuring:
+## 🏠 Home Page  
+![Home Page](assets/Home.png)
 
-🎥 WebRTC-based video consultation
+MediVerse offers a clean, modern, intuitive interface packed with powerful capabilities:
 
-🧠 AI-powered health predictions
+- 🎥 **WebRTC-based video consultations**
+- 🧠 **AI-driven health predictions**
+- 🎙 **Voice-enabled assistant (ElevenLabs AI)**
+- 📄 **Smart document extraction & analysis**
+- 🔐 **Role-based dashboards for patients & doctors**
+- 🛒 **Built-in medical store module**
 
-🎙 Voice-enabled interactions (ElevenLabs)
+---
 
-📄 Automated prescription & report analysis
+## 🚀 Features
 
-🔐 Role-based dashboard for patients & doctors
+### 👨‍⚕️ WebRTC Video Calls  
+High-quality, secure, encrypted doctor–patient video consultations.
 
-🛒 Integrated medical shopping module
+### 🧠 AI Predictions  
+Predict early signs of health risks using machine learning models.
 
-🚀 Core Features
-👨‍⚕️ Real-Time Video Consultations
+### 📄 Document Analysis  
+Upload lab reports, prescriptions, or PDFs — get insights instantly.
 
-Secure, low-latency WebRTC calls ensure smooth communication between patients and doctors.
+### 🎙 Voice Interaction  
+Hands-free conversational assistant powered by ElevenLabs Voice API.
 
-🧠 AI Health Insights
+### 🔐 Secure Role-Based System  
+Each user gets customized access and a personalized dashboard.
 
-Get instant predictions using machine-learning models for early risk detection.
+### 🛒 ShopNow Module  
+Integrated medical e-commerce experience built into the application.
 
-📄 Smart Document Processing
+---
 
-Upload prescriptions, reports, or PDFs and receive intelligent insights within seconds.
+## 🎥 Demo  
+A full showcase video will be uploaded soon. Stay tuned!
 
-🎙 Voice Interaction
+---
 
-Hands-free conversations via an integrated ElevenLabs AI voice assistant.
+## 📚 User Guide  
+A detailed onboarding manual is available:  
+👉 **[Click here for the User Guide (PDF)](https://drive.google.com/file/d/1tJwRuEg9FRfy-7qHhuxK0rZHVc4GfEHd/view)**
 
-🔐 Secure Role-Based System
+---
 
-Personalized dashboards and permissions for each user type.
+## 🔗 Live Application  
+Try MediVerse here:  
+👉 **https://medixpert.netlify.app/**
 
-🛒 Medical Store
+---
 
-Purchase healthcare essentials directly through the platform.
+## 🛠️ Technologies Used
 
-📸 Demo
+### **Frontend**
+- React.js  
+- Vite  
+- HTML / CSS  
 
-A full demonstration video will be uploaded soon. Stay tuned!
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB  
 
-📚 User Guide
+### **Real-Time Communication**
+- WebRTC  
+- Socket.io  
 
-A complete onboarding document is available here:
-👉 User Manual (PDF)
+### **AI & Automation**
+- Python-based health prediction models  
+- ElevenLabs Voice API  
 
-🔗 Live Application
+### **Cloud & Hosting**
+- AWS  
+- Netlify  
+- Cloud-based secure uploads  
 
-Experience MediVerse in action:
-➡️ https://medixpert.netlify.app/
+### **Security**
+- JWT Authentication  
+- HTTPS  
+- Role-based access control (RBAC)
 
-🛠️ Tech Stack
-🎨 Frontend
+---
 
-React.js
+## 📦 Installation
 
-Vite
-
-HTML/CSS
-
-⚙️ Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-🔴 Real-Time Communication
-
-WebRTC
-
-Socket.io
-
-🤖 AI Services
-
-Python-based prediction models
-
-ElevenLabs Voice API
-
-☁️ DevOps & Hosting
-
-AWS
-
-Netlify
-
-Secure cloud storage
-
-🔐 Security
-
-JWT Authentication
-
-HTTPS
-
-RBAC (Role-Based Access Control)
-
-📦 Installation & Setup
-Clone the repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/MediVerse.git
+```bash
+# Clone the repository
+git clone https://github.com/Abhii9180/HealthVerse_Milestone_WEBRTC_ABHYUDAY.git
 cd MediVerse
 
-▶️ Frontend Setup
+# -------------------------------
+# Frontend Setup
+# -------------------------------
 cd client
 npm install
 npm run dev
 
-▶️ Backend Setup
+# -------------------------------
+# Backend Setup
+# -------------------------------
 cd ../server
 npm install
 npm run dev
 
-▶️ Python AI Service
-cd ../flask_ai
+# -------------------------------
+# Python AI Service
+# -------------------------------
 python -m server.app
 
-📂 Project Structure (High-Level)
+```
+
+
+
+📂 Project Structure (High Level)
 MediVerse/
-│── client/               # React frontend
-│── server/               # Node.js backend
-│── flask_ai/             # Python AI models & services
-│── RazorPay/             # Payment integration
-│── React-webRTC-main/    # WebRTC video module
-│── assets/               # Images used in README
+│── client/                # React frontend
+│── server/                # Node.js backend
+│── flask_ai/              # Python ML services
+│── RazorPay/              # Payment gateway module
+│── React-webRTC-main/     # WebRTC video call module
+│── assets/                # README images
 │── README.md
 │── package.json
+
+
 
 👨‍💻 Contributors
 
